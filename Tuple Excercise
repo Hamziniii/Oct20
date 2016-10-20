@@ -1,0 +1,28 @@
+print("I am using Python 3")
+
+textbook = [("Textbook ID", "Textbook Name", "Course(s)", "# Books", "Price Per Book", "Publisher ID"),
+            ("TEXT-0001", "Basic Anatomy and Physiology", "BIO-100", "400", "$94.00", "PUB-1003"),
+            ("TEXT-0002", "Chemistry for Biology Students", "BIO-101-102", "400", "$105.30", "PUB-1002"),
+            ("TEXT-0003", "Anatomy and Physiology", "BIO-141-142", "330", "$159.75", "PUB-1003")]
+
+print("\n")
+print(textbook[1][1])
+print(textbook[1][4])
+print(textbook[2][1])
+print(textbook[2][4])
+print(textbook[3][1])
+print(textbook[3][4])
+
+publisher = [("Publisher ID", "Publisher Name", "Address", "City", "State", "ZIP", "Phone Number"),
+             ("PUB-1001", "Science Books Galore", "525 Allen St", "Trenton", "NJ", "08620", "(609) 555-2554"),
+             ("PUB-1002", "Books for Chemistry Students Ltd", "142 N Spring St", "Los Angeles", "CA", "90012",
+              "(213) 555-8362"),
+             ("PUB-1003", "Carliz Publishers Corp", "24 King Ave", "Columbus", "OH", "43201", "(614) 555-3322")]
+
+print("\n")
+print(publisher[1][1])
+print(publisher[1][6])
+print(publisher[2][1])
+print(publisher[2][6])
+print(publisher[3][1])
+print(publisher[3][6])
